@@ -4,7 +4,7 @@ import sys, os, time, json, socket, select, random, subprocess, signal, string, 
 
 VERSION = "0.8"
 
-REPLICA_PROG = './3700kvstore'
+REPLICA_PROG = './kvstore'
 NUM_CLIENTS = 8
 
 MAX_GET_FRAC = 0.5
